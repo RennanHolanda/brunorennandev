@@ -1,21 +1,13 @@
-footer {
+
+ footer {
+  height: 4rem;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: black;
+  justify-content: center;
+  background-color: #1e1f20;
   color: #fff;
-  font-weight: bolder;
-  padding: 1rem;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
-footer p {
-  /* margin: 0 auto; */
-  display: inline-block;
-  /* margin-left: 15rem; */
-}
 
 footer a {
   text-decoration: none;
@@ -29,17 +21,17 @@ footer a:hover {
   transition: all 0.5s;
 }
 
-#footer-text {
-  text-align: center;
-}
-
-.icon {
+#icons {
   color: blueviolet;
-  font-size: 2rem;
-  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
 }
 
-.icon:hover {
-    transform: scale(1.1);
-    transition: all 0.5s;
+#icons a {
+  margin-left: 1rem;
+}
+
+#tag-icon:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }

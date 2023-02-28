@@ -1,0 +1,37 @@
+#secaoHome h1{
+    color: #FFF;
+}
+.home {
+    /* background-color: blue; */
+    width: 50rem;
+    height: 35rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    /* background-color: red; */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #FFF;
+     /* border: 5px solid #000000; */
+}
+.intro p {
+    margin-top: 50px;
+}
+
+.profile {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    /* border: 5px solid #000000; */
+    /* border-radius: 200px; */
+}
+
+.profile img {
+    width: auto;
+    height: 100%;
+    /* border-radius: 200px; */
+}

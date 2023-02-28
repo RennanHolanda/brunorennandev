@@ -16,17 +16,17 @@ const Footer = () => {
             Bruno Rennan O Holanda 
           </a>
         </p>
-        <p>
-        </p>
+        <div id="icons">
         <a href="https://www.linkedin.com/in/rennanholanda/">
-          <AiOutlineLinkedin className="icon"/>
+          <AiOutlineLinkedin id="tag-icon"/>
         </a>
         <a href="https://github.com/RennanHolanda">
-          <VscGithub className="icon"/>
+          <VscGithub id="tag-icon"/>
         </a>
-        <a href="">
-          <AiOutlineInstagram className="icon"/>
+        <a href="https://www.instagram.com/rennanholanda/">
+          <AiOutlineInstagram id="tag-icon"/>
         </a>
+        </div>
     </footer>
       </Container>
   );
