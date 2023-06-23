@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1e1f20;
+  background-color: #999999;
   color: #fff;
 }
 
@@ -16,14 +16,14 @@ footer a {
 }
 
 footer a:hover {
-  color: blueviolet;
+  color: rgb(0, 0, 0);
   transform: scale(1.1);
   transition: all 0.5s;
 }
 
 #icons {
-  color: blueviolet;
-  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
   margin-left: 1rem;
 }
 
@@ -32,6 +32,6 @@ footer a:hover {
 }
 
 #tag-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.4);
   transition: all 0.5s;
 }

@@ -1,9 +1,9 @@
 .main {
-    min-height: 85vh;
+    min-height: 83vh;
     text-align:  center;
     padding: 1em;
 }
 
 .App {
-    background-color: rgba(15, 14, 14, 0.971);
+    background-color: rgba(161, 161, 161, 0.971);
 }

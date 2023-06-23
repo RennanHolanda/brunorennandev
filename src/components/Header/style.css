@@ -5,14 +5,16 @@
 }
 
 #nav-letter:hover {
-  color: blueviolet;
+  color: rgb(0, 0, 0);
 }
 
 #title-nav {
-  font-size: 2.2rem;
+  font-size: 3rem;
   margin-left: 5rem;
+  font-family: "thin";
 }
 
-#title-nav span {
-  color: blueviolet;
+#title-nav strong {
+  color: rgb(0, 0, 0);
+  font-family: "thin";
 }

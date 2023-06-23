@@ -7,8 +7,8 @@ import Navbar from "react-bootstrap/Navbar";
 const Header = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
-        <Navbar.Brand id="title-nav" href="/">Port<span>Folio</span></Navbar.Brand>
+      <Navbar bg="" variant="dark">
+        <Navbar.Brand id="title-nav" href="/">Port<strong>Fólio</strong></Navbar.Brand>
         <Container>
           <Nav className="nav">
             <Nav.Link id="nav-letter" href="/">Home</Nav.Link>

@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   max-width: 1280px;
+  font-family: 'Roboto', sans-serif;
 }
 
 :root {
-  background-color: blueviolet;
+  background-color: rgb(193, 193, 193);
 }
 
 

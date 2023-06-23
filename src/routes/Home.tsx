@@ -1,22 +1,24 @@
-import styles from './Home.module.css'
+import styles from "./Home.module.css";
+import { BsArrowReturnRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <section id={styles.secaoHome}>
-        <h1>Seja bem vindo ao meu portfólio!</h1>
-      <div className={styles.home}>
-        <div className={styles.intro}>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum necessitatibus eveniet corporis suscipit eum voluptatem natus mollitia quae, veritatis ducimus quidem est repellat modi? Recusandae architecto numquam fugit eos explicabo?</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum necessitatibus eveniet corporis suscipit eum voluptatem natus mollitia quae, veritatis ducimus quidem est repellat modi? Recusandae architecto numquam fugit eos explicabo?</p>
-        </div>
-        <div className={styles.profile}>
-          <img src="public\img\perfil.png" alt="" />
-        </div>
+    <div className={styles.home}>
+      <div className={styles.intro}>
+        <h1>Bem-vindo ao meu portfólio</h1>
+        <p>Bruno Rennan / Desenvolvedor Web</p>
+      </div>
+      <div className={styles.profile}>
+        <Link style={{textDecoration: 'none'}} to={"/about"}>
+          <p>
+            <BsArrowReturnRight />
+            Entre em contato
+          </p>
+        </Link>
+      </div>
     </div>
-    </section>
-      
-    
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
