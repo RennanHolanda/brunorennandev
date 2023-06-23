@@ -57,3 +57,92 @@
 #secaoHome h1 {
   color: blueviolet;
 }
+
+@media (max-width: 767px) {
+  .home {
+    height: 15rem;
+    display: grid;
+  }
+
+  .intro {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    height: 8rem;
+    color: #fff;
+  }
+
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    width: 42rem;
+    text-align: center;
+  }
+
+  .intro p {
+    margin-top: 6rem;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 15rem;
+  }
+
+  .profile {
+    margin-top: 6rem;
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .profile p {
+    margin-top: 16rem;
+    margin-left: 0rem;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+}
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .home {
+    height: 12rem;
+    display: grid;
+  }
+
+  .intro {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    height: 8rem;
+    color: #fff;
+  }
+
+  .intro h1 {
+    font-size: 3.5rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  .intro p {
+    margin-top: 7rem;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 22rem;
+  }
+
+  .profile {
+    margin-top: 2rem;
+    width: 17rem;
+    height: 17rem;
+  }
+
+  .profile p {
+    margin-top: 18rem;
+    margin-left: 0rem;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+}
+
+

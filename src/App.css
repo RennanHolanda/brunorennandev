@@ -7,3 +7,11 @@
 .App {
     background-color: rgba(161, 161, 161, 0.971);
 }
+
+/* @media (max-width: 767px) {
+    .main {
+        max-height: 73vh;
+        background-color: bisque;
+    }
+
+    } */

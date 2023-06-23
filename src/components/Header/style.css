@@ -18,3 +18,29 @@
   color: rgb(0, 0, 0);
   font-family: "thin";
 }
+
+@media (max-width: 767px) {
+  .nav {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+  }
+
+  #title-nav {
+    font-size: 3rem;
+    margin-left: 3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .nav {
+    margin-right: 2rem;
+    font-size: 1.5rem;
+  }
+
+  #title-nav {
+    font-size: 4rem;
+    margin-left: 4rem;
+  }
+
+}
