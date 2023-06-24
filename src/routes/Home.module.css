@@ -149,7 +149,7 @@
 @media (min-width: 375px) and (max-width: 708px) {
 
   .home {
-    height: 12rem;
+    height: 13rem;
   }
 
   .intro {
@@ -162,12 +162,12 @@
     font-size: 1.8rem;
     width: 18rem;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
   }
 
   .intro p {
-    margin-top: 0rem;
+    margin-top: 12rem;
     text-align: center;
     border-radius: 20px;
     margin: 0 auto;
@@ -175,14 +175,12 @@
   }
 
   .profile {
-    margin-top: 0rem;
-    width: 8rem;
-    height: 8rem;
+    width: 13rem;
+    height: 13rem;
   }
 
   .profile p {
-    margin-top: 8rem;
-    margin-left: 0rem;
+    margin-top: 14rem;
     font-size: 1.2rem;
   }
 
