@@ -7,12 +7,15 @@ import { AiOutlineInstagram } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer>
-      <p id="footer-text">
-        &copy; 2023 Desenvolvido por{" "}
-        <a href="https://github.com/RennanHolanda/portfolio">
-          <strong>Bruno Rennan O Holanda </strong>
-        </a>
-      </p>
+      <div id="copy">
+        <p id="footer-text">
+          &copy; 2023 Desenvolvido por{" "}
+          <a href="https://github.com/RennanHolanda/portfolio">
+            <strong>Bruno Rennan O Holanda </strong>
+          </a>
+        </p>
+      </div>
+
       <div id="icons">
         <a href="https://www.linkedin.com/in/rennanholanda/">
           <AiOutlineLinkedin id="tag-icon" />

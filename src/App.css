@@ -8,10 +8,8 @@
     background-color: rgba(161, 161, 161, 0.971);
 }
 
-/* @media (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 708px) {
     .main {
-        max-height: 73vh;
-        background-color: bisque;
+        min-height: 75vh;
     }
-
-    } */
+}
