@@ -1,0 +1,67 @@
+.about {
+  background-color: rgb(210, 210, 210);
+  height: 27rem;
+  width: 70%;
+  border: 3px solid #000;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+.about h2 {
+  font-family: "thin";
+  font-size: 3rem;
+  color: #000;
+  /* text-decoration: underline; */
+}
+
+#text_about {
+  margin: 2rem;
+  font-size: 1.3rem;
+}
+
+.about_tec {
+  background-color: rgb(210, 210, 210);
+  height: 35rem;
+  width: 70%;
+  border: 3px solid #000;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about_tec h4 {
+  font-family: "thin";
+  color: #646464;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+#area_tec {
+  text-align: left;
+  font-family: "thin";
+  margin: 2rem;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+#area_tec img {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 10px;
+}
+
+#area_tec img:hover {
+  transform: scale(1.1);
+  transition: all 0.8s;
+}
+
+#area_versioning img {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 10px;
+}
+
+#area_versioning img:hover {
+  transform: scale(1.1);
+  transition: all 0.8s;
+}
