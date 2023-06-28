@@ -100,7 +100,6 @@
 
 }
 
-/* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
   .home {
     height: 12rem;
@@ -146,7 +145,7 @@
 @media (min-width: 375px) and (max-width: 708px) {
 
   .home {
-    height: 13rem;
+    height: 11rem;
   }
 
   .intro {
@@ -172,12 +171,13 @@
   }
 
   .profile {
-    width: 13rem;
-    height: 13rem;
+    margin-top: 0rem;
+    width: 11rem;
+    height: 11rem;
   }
 
   .profile p {
-    margin-top: 14rem;
+    margin-top: 12rem;
     font-size: 1.2rem;
   }
 

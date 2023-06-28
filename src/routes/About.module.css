@@ -8,12 +8,10 @@
   text-align: left;
 }
 
-.about h2 {
-  font-family: "thin";
-  font-size: 3rem;
-  color: #000;
-  /* text-decoration: underline; */
+.about_area h2{
+  color: #fff;
 }
+
 
 #text_about {
   margin: 2rem;
@@ -64,4 +62,95 @@
 #area_versioning img:hover {
   transform: scale(1.1);
   transition: all 0.8s;
+}
+
+@media (min-width: 375px) and (max-width: 708px) {
+  .about {
+    height: 31rem;
+    width: 100%;
+  }
+
+  .about_area {
+    margin-top: 0rem;
+  }
+
+  .about_area h2{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  #text_about {
+    margin: 0.6rem;
+    font-size: 1.1rem;
+  }
+
+  #area_tec {
+    margin: 0rem;
+  }
+
+  .about_tec {
+    height: 18rem;
+    width: 100%;
+  }
+
+  .about_tec h4 {
+    font-size: 1.1rem;
+  }
+
+  #area_tec img {
+    height: 2.2rem;
+    width: 2.2rem;
+  }
+
+  #area_versioning img {
+    height: 2.2rem;
+    width: 2.2rem;
+  }
+  
+}
+
+@media (min-width: 709px) and (max-width: 1124px){
+  .about {
+    height: 31rem;
+    width: 100%;
+  }
+
+  .about_area {
+    margin-top: 3.5rem;
+  }
+
+  .about_area h2{
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #text_about {
+    margin: 0.6rem;
+    font-size: 1.5rem;
+  }
+
+  #area_tec {
+    margin: 0rem;
+  }
+
+  .about_tec {
+    height: 22rem;
+    width: 100%;
+  }
+
+  .about_tec h4 {
+    font-size: 1.5rem;
+  }
+
+  #area_tec img {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 20px;
+  }
+
+  #area_versioning img {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 20px;
+  }
 }

@@ -10,7 +10,7 @@ const Home = () => {
         <p>Bruno Rennan / Desenvolvedor Web</p>
       </div>
       <div className={styles.profile}>
-        <Link style={{textDecoration: 'none'}} to={"/about"}>
+        <Link style={{textDecoration: 'none'}} to={"/contact"}>
           <p>
             <BsArrowReturnRight />
             Entre em contato

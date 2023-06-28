@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <div>
+    <div className={styles.about_area}>
       <h2>SOBRE MIN</h2>
       <div className={styles.about}>
         <div id={styles.text_about}>

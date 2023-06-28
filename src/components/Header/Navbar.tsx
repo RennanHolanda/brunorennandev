@@ -7,11 +7,13 @@ const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
   return (
     <nav className={styles.navbar}>
-      <h3 className={styles.logo}>Logo</h3>
-      <ul className={isMobile? styles.nav_links_mobile : styles.nav_links}
-      onClick={() => setIsMobile(false)}
+      <Link to="/">
+        <img src="public\img\dev_24012.png" alt="Logo" />
+      </Link>
+      <ul
+        className={isMobile ? styles.nav_links_mobile : styles.nav_links}
+        onClick={() => setIsMobile(false)}
       >
-        
         <Link to="/" className={styles.home}>
           <li>HOME</li>
         </Link>
@@ -25,8 +27,9 @@ const Navbar = () => {
           <li>CONTATO</li>
         </Link>
       </ul>
-      <button className={styles.mobile_menu_icon}
-      onClick={() => setIsMobile(!isMobile)}
+      <button
+        className={styles.mobile_menu_icon}
+        onClick={() => setIsMobile(!isMobile)}
       >
         {isMobile ? (
           <i className="fas fa-times"></i>

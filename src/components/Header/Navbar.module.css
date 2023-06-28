@@ -5,6 +5,11 @@
   color: #fff;
 }
 
+.navbar img {
+  height: 4rem;
+  margin-top: 0.5rem;
+}
+
 .logo {
   font-size: 30px;
 }
@@ -38,6 +43,11 @@
     position: absolute;
     top: 15px;
     left: 35px;
+  }
+
+  .navbar img {
+    height: 3.2rem;
+    margin-bottom: 1rem;
   }
 
   .nav_links {
