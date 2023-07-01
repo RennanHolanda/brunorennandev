@@ -5,10 +5,8 @@
 }
 
 .intro {
-  margin-left: 1rem;
-  margin-right: 1rem;
   color: #fff;
-  width: 60%;
+  width: 100%;
 }
 
 .intro img {
@@ -92,7 +90,6 @@
   .intro p {
     margin-top: 6rem;
     text-align: center;
-    border-radius: 20px;
     margin: 0 auto;
     width: 20rem;
   }
@@ -113,7 +110,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .home {
-    height: 12rem;
+    height: 50rem;
     display: grid;
   }
 
@@ -134,34 +131,52 @@
   .intro p {
     margin-top: 7rem;
     text-align: center;
-    border-radius: 20px;
     margin: 0 auto;
-    width: 22rem;
+    width: 100%;
+  }
+
+  .text {
+    display: inline-block;
+    align-items: center;
+    margin-left: 1rem;
+    width: 80%;
+    height: 20rem;
+  }
+
+  .text p {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .text img {
+    height: 4rem;
+    margin-top: 2rem;
+    margin: 2rem;
   }
 
   .profile {
-    margin-top: 0rem;
+    margin-top: 12rem;
     width: 12rem;
     height: 12rem;
   }
 
   .profile p {
-    margin-top: 13rem;
+    margin-top: 14rem;
     margin-left: 0rem;
-    font-size: 1.2rem;
+    font-size: 1.5;
     color: #fff;
   }
 }
 
-@media (min-width: 375px) and (max-width: 708px) {
+@media (min-width: 375px) and (max-width: 767px) {
   .home {
-    height: 50rem;
+    height: 48rem;
   }
 
   .intro {
     margin-top: 0rem;
     margin-bottom: 0rem;
-    height: 32rem;
+    height: 29rem;
   }
 
   .intro h1 {
@@ -178,11 +193,13 @@
     text-align: center;
     font-size: 1.6rem;
     margin-bottom: 2rem;
+    width: 100%;
   }
 
   .text {
     display: inline-block;
     align-items: center;
+    margin-left: 1rem;
   }
 
   .text p {
@@ -195,7 +212,7 @@
   }
 
   .profile {
-    margin-top: 1rem;
+    margin-top: 4rem;
     width: 8rem;
     height: 8rem;
   }

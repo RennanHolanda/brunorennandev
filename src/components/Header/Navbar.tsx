@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Link to="/">
-        <img src="public\img\dev_24012.png" alt="Logo" />
+        <img src="public\img\dev.png" alt="Logo" />
       </Link>
       <ul
         className={isMobile ? styles.nav_links_mobile : styles.nav_links}
