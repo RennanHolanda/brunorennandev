@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <div className={styles.about_area}>
-      <h2>SOBRE MIN</h2>
+      <h2>SOBRE MIM</h2>
       <div className={styles.about}>
         <div id={styles.text_about}>
           <p>Sou de Recife-PE</p>
