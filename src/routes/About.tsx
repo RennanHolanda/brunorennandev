@@ -1,5 +1,19 @@
 import styles from "./About.module.css";
 
+import Nd from "/img/node.svg";
+import Js from "/img/js.svg";
+import Ts from "/img/typescript.svg";
+import My from "/img/mysql.svg";
+import Ex from "/img/express.svg";
+import Sq from "/img/sequelize.svg";
+import Dk from "/img/docker.svg";
+import Rc from "/img/react.svg";
+import Ht from "/img/html5.svg";
+import Cs from "/img/css3.svg";
+import Bt from "/img/bootstrap.svg";
+import Gt from "/img/git.svg";
+import Gth from "/img/github.svg";
+
 const About = () => {
   return (
     <div className={styles.about_area}>
@@ -30,30 +44,30 @@ const About = () => {
         <section>
           <h4>BACKEND</h4>
           <div id={styles.area_tec}>
-            <img src="public\img\node.svg" alt="Nodejs" />
-            <img src="public\img\js.svg" alt="javascript" />
-            <img src="public\img\typescript.svg" alt="typescript" />
-            <img src="public\img\mysql.svg" alt="mysql" />
-            <img src="public\img\express.svg" alt="express" />
-            <img src="public\img\sequelize.svg" alt="sequelize" />
-            <img src="public\img\docker.svg" alt="docker" />
+            <img src={Nd} alt="Nodejs" />
+            <img src={Js} alt="javascript" />
+            <img src={Ts} alt="typescript" />
+            <img src={My} alt="mysql" />
+            <img src={Ex} alt="express" />
+            <img src={Sq} alt="sequelize" />
+            <img src={Dk} alt="docker" />
           </div>
         </section>
         <section>
           <h4>FRONTEND</h4>
           <div id={styles.area_tec}>
-            <img src="public\img\js.svg" alt="javascript" />
-            <img src="public\img\react.svg" alt="react" />
-            <img src="public\img\html5.svg" alt="html5" />
-            <img src="public\img\css3.svg" alt="css3" />
-            <img src="public\img\bootstrap.svg" alt="bootstrap" />
+            <img src={Js} alt="javascript" />
+            <img src={Rc} alt="react" />
+            <img src={Ht} alt="html5" />
+            <img src={Cs} alt="css3" />
+            <img src={Bt} alt="bootstrap" />
           </div>
         </section>
         <section>
           <h4>VERSIONAMENTO</h4>
           <div id={styles.area_versioning}>
-            <img src="public\img\git.svg" alt="git" />
-            <img src="public\img\github.svg" alt="github" />
+            <img src={Gt} alt="git" />
+            <img src={Gth} alt="github" />
           </div>
         </section>
       </div>

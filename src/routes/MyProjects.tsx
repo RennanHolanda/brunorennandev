@@ -1,12 +1,19 @@
 import styles from "./MyProjects.module.css";
 
+import Fk from "../assets/img/faketube.png";
+import Ct from "../assets/img/cost.png"
+import Pg from "../assets/img/pagamento.png";
+import Ps from "../assets/img/palavra_secreta.png";
+import Td from "../assets/img/todo_react.png";
+
+
 const MyProjects = () => {
   return (
     <div className={styles.project}>
       <h1>Meus Projetos</h1>
       <section className={styles.img}>
         <div className={styles.card}>
-          <img src="src\assets\img\faketube.png" alt="FakeTube" />
+          <img src={Fk} alt="FakeTube" />
           <p>
             Projeto desenvolvido para simular uma plataforma de compartilhamento
             de vídeos.
@@ -15,7 +22,7 @@ const MyProjects = () => {
           <a href="https://github.com/RennanHolanda/videostube">Codigo fonte</a>
         </div>
         <div className={styles.card}>
-          <img src="src\assets\img\cost.png" alt="Criar projeto" />
+          <img src={Ct} alt="Criar projeto" />
           <p>
             Um pequeno sistema eficiente e intuitivo para a elaboração de
             orçamenos de projetos
@@ -27,7 +34,7 @@ const MyProjects = () => {
       <br />
       <section className={styles.img}>
         <div className={styles.card}>
-          <img src="src\assets\img\pagamento.png" alt="Pagamentos" />
+          <img src={Pg} alt="Pagamentos" />
           <p>
             Finalização de pagamento para e-commerce, que permite aos usuários
             adicionar facilmente o cartão da bandeira desejada.
@@ -36,7 +43,7 @@ const MyProjects = () => {
           <a href="https://github.com/RennanHolanda/Payment">Codigo fonte</a>
         </div>
         <div className={styles.card}>
-          <img src="src\assets\img\palavra_secreta.png" alt="Palavra secreta" />
+          <img src={Ps} alt="Palavra secreta" />
           <p>
             Receba dicas, encontre as respostas corretas e acumule pontos para
             se tornar o melhor jogador.
@@ -48,7 +55,7 @@ const MyProjects = () => {
       <br />
       <section className={styles.img}>
         <div className={styles.card}>
-          <img src="src\assets\img\todo_react.png" alt="Lista de tarefas" />
+          <img src={Td} alt="Lista de tarefas" />
           <p>Aprimore sua produtividade diária ao organizar suas tarefas com o devido grau de dificuldade.</p>
           <a href="https://todo-react-ts-two.vercel.app/">Veja Online</a>
           <a href="https://github.com/RennanHolanda/todo-react-ts">Codigo fonte</a>

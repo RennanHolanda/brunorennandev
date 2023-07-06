@@ -1,6 +1,9 @@
 import styles from "./Home.module.css";
+
 import { BsArrowReturnRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import Github from "/img/github-original.svg"
+import Lk from "/img/linkedin-plain.svg"
 
 const Home = () => {
   return (
@@ -16,10 +19,10 @@ const Home = () => {
             alta qualidade.
           </p>
           <Link to="https://github.com/RennanHolanda">
-            <img src="public\img\github-original.svg" alt="github" />
+            <img src={Github} alt="github" />
           </Link>
           <Link to="https://www.linkedin.com/in/rennanholanda/">
-            <img src="public\img\linkedin-plain.svg" alt="linkedin" />
+            <img src={Lk} alt="linkedin" />
           </Link>
         </div>
       </div>

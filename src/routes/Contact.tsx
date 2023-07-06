@@ -1,4 +1,5 @@
 import styles from './Contact.module.css'
+import Developer from '/img/developer.png'
 
 const Contact = () => {
   return (
@@ -12,7 +13,7 @@ const Contact = () => {
           </div>
         </div>
         <div className={styles.contact_img}>
-          <img src="public\img\developer.png" alt="Desenvolvimento" />
+          <img src={Developer} alt="Desenvolvimento" />
         </div>
     </div>
   )

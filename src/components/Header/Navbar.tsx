@@ -2,13 +2,14 @@ import styles from "./Navbar.module.css";
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Dev from "/img/dev.png";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
   return (
     <nav className={styles.navbar}>
       <Link to="/">
-        <img src="public\img\dev.png" alt="Logo" />
+        <img src={Dev} alt="Logo" />
       </Link>
       <ul
         className={isMobile ? styles.nav_links_mobile : styles.nav_links}
