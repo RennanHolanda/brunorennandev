@@ -19,7 +19,7 @@ const MyProjects = () => {
             de vídeos.
           </p>
           <a href="https://videostube.vercel.app/">Veja Online</a>
-          <a href="https://github.com/RennanHolanda/videostube">Codigo fonte</a>
+          <a href="https://github.com/RennanHolanda/videostube">Código fonte</a>
         </div><br />
         <div className={styles.card}>
           <img src={Ct} alt="Criar projeto" />
@@ -28,7 +28,7 @@ const MyProjects = () => {
             orçamenos de projetos
           </p>
           <a href="https://cost-self.vercel.app/newproject">Veja Online</a>
-          <a href="https://github.com/RennanHolanda/Cost">Codigo fonte</a>
+          <a href="https://github.com/RennanHolanda/Cost">Código fonte</a>
         </div>
       </section>
       <br />
@@ -40,7 +40,7 @@ const MyProjects = () => {
             adicionar facilmente o cartão da bandeira desejada.
           </p>
           <a href="https://payment-rose.vercel.app/">Veja Online</a>
-          <a href="https://github.com/RennanHolanda/Payment">Codigo fonte</a>
+          <a href="https://github.com/RennanHolanda/Payment">Código fonte</a>
         </div><br />
         <div className={styles.card}>
           <img src={Ps} alt="Palavra secreta" />
@@ -49,7 +49,7 @@ const MyProjects = () => {
             se tornar o melhor jogador.
           </p>
           <a href="https://secret-word-mauve.vercel.app/">Veja Online</a>
-          <a href="https://github.com/RennanHolanda/secret-word">Codigo fonte</a>
+          <a href="https://github.com/RennanHolanda/secret-word">Código fonte</a>
         </div>
       </section>
       <br />
@@ -58,7 +58,7 @@ const MyProjects = () => {
           <img src={Td} alt="Lista de tarefas" />
           <p>Aprimore sua produtividade diária ao organizar suas tarefas com o devido grau de dificuldade.</p>
           <a href="https://todo-react-ts-two.vercel.app/">Veja Online</a>
-          <a href="https://github.com/RennanHolanda/todo-react-ts">Codigo fonte</a>
+          <a href="https://github.com/RennanHolanda/todo-react-ts">Código fonte</a>
         </div>
       </section>
     </div>
