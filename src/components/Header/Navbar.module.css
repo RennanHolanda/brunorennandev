@@ -37,7 +37,7 @@
   display: none;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 832px) {
   .logo {
     display: flex;
     position: absolute;

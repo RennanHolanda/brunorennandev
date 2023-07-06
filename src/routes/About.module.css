@@ -8,12 +8,53 @@
   text-align: left;
 }
 
-.about_area h2{
+.about a {
+  text-decoration: none;
+  font-size: 1rem;
+  border: 2px solid #000;
+  border-radius: 2rem;
+  padding: 5px 20px;
+  background-color: rgb(158, 158, 158);
+  color: #fff;
+  cursor: pointer;
+}
+
+.about_area h2 {
   color: #fff;
 }
 
-
 #text_about {
+  margin: 2rem;
+  font-size: 1.3rem;
+}
+
+#education {
+  margin: 2rem;
+  font-size: 1.3rem;
+}
+
+.about_course {
+  background-color: rgb(210, 210, 210);
+  height: 35rem;
+  width: 70%;
+  border: 3px solid #000;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+.about_course a {
+  text-decoration: none;
+  font-size: 1rem;
+  border: 2px solid #000;
+  border-radius: 2rem;
+  padding: 5px 20px;
+  background-color: rgb(158, 158, 158);
+  color: #fff;
+  cursor: pointer;
+}
+
+#course {
   margin: 2rem;
   font-size: 1.3rem;
 }
@@ -66,15 +107,20 @@
 
 @media (min-width: 375px) and (max-width: 708px) {
   .about {
-    height: 31rem;
+    height: 33rem;
     width: 100%;
+  }
+
+  .about a {
+    font-size: 0.8rem;
+    padding: 4px 18px;
   }
 
   .about_area {
     margin-top: 0rem;
   }
 
-  .about_area h2{
+  .about_area h2 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
   }
@@ -82,6 +128,24 @@
   #text_about {
     margin: 0.6rem;
     font-size: 1.1rem;
+  }
+
+  #education {
+    font-size: 1.1rem;
+  }
+
+  .about_course {
+    height: 50rem;
+    width: 100%;
+  }
+
+  .about_course a {
+    font-size: 0.8rem;
+    padding: 4px 18px;
+  }
+
+  #course {
+    font-size: 1.2rem;
   }
 
   #area_tec {
@@ -106,12 +170,11 @@
     height: 2.2rem;
     width: 2.2rem;
   }
-  
 }
 
-@media (min-width: 709px) and (max-width: 1124px){
+@media (min-width: 709px) and (max-width: 1277px) {
   .about {
-    height: 31rem;
+    height: 34rem;
     width: 100%;
   }
 
@@ -119,7 +182,7 @@
     margin-top: 3.5rem;
   }
 
-  .about_area h2{
+  .about_area h2 {
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
   }
@@ -127,6 +190,24 @@
   #text_about {
     margin: 0.6rem;
     font-size: 1.5rem;
+  }
+
+  #education {
+    font-size: 1.5rem;
+  }
+
+  .about_course {
+    height: 40rem;
+    width: 100%;
+  }
+
+  .about_course a {
+    font-size: 1rem;
+    padding: 4px 18px;
+  }
+
+  #course {
+    font-size: 1.2rem;
   }
 
   #area_tec {

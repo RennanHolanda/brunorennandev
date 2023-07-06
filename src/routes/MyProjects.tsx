@@ -10,7 +10,7 @@ import Td from "../assets/img/todo_react.png";
 const MyProjects = () => {
   return (
     <div className={styles.project}>
-      <h1>Meus Projetos</h1>
+      <h2>Meus Projetos</h2>
       <section className={styles.img}>
         <div className={styles.card}>
           <img src={Fk} alt="FakeTube" />
@@ -20,7 +20,7 @@ const MyProjects = () => {
           </p>
           <a href="https://videostube.vercel.app/">Veja Online</a>
           <a href="https://github.com/RennanHolanda/videostube">Codigo fonte</a>
-        </div>
+        </div><br />
         <div className={styles.card}>
           <img src={Ct} alt="Criar projeto" />
           <p>
@@ -41,7 +41,7 @@ const MyProjects = () => {
           </p>
           <a href="https://payment-rose.vercel.app/">Veja Online</a>
           <a href="https://github.com/RennanHolanda/Payment">Codigo fonte</a>
-        </div>
+        </div><br />
         <div className={styles.card}>
           <img src={Ps} alt="Palavra secreta" />
           <p>

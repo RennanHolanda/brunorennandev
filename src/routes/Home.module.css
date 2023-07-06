@@ -1,12 +1,18 @@
+.container {
+  background-image: url("/public/img/developer.png");
+  background-repeat: round;
+}
+
 .home {
   width: 100%;
   height: 38rem;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.68);
 }
 
 .intro {
   color: #fff;
-  width: 100%;
+  width: 70%;
 }
 
 .intro img {
@@ -40,14 +46,20 @@
   font-size: 1.4rem;
 }
 
+#icons {
+  width: 10rem;
+  display: flex;
+  justify-content:space-around;
+}
+
 .profile {
-  margin-top: 5rem;
-  width: 18rem;
-  height: 18rem;
-  border-radius: 100%;
   background-image: url("../img/eu.png");
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+  width: 17rem;
+  height: 17rem;
+  border-radius: 100%;
+  margin-top: 5rem;
 }
 
 .profile p {
@@ -61,11 +73,9 @@
   transition: all 0.5s;
 }
 
-#secaoHome h1 {
-  color: blueviolet;
-}
 
 @media (max-width: 767px) {
+
   .home {
     height: 15rem;
     display: grid;
@@ -75,7 +85,7 @@
     margin-top: 1rem;
     margin-bottom: 0rem;
     height: 8rem;
-    color: #fff;
+    width: 100%;
   }
 
   .intro h1 {
@@ -168,9 +178,9 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 440px) {
   .home {
-    height: 48rem;
+    height: 50rem;
   }
 
   .intro {
@@ -207,18 +217,62 @@
     font-size: 1.4rem;
   }
 
-  .text img {
-    height: 2.5rem;
-  }
-
   .profile {
-    margin-top: 4rem;
+    margin-top: 3rem;
     width: 8rem;
     height: 8rem;
   }
 
   .profile p {
     margin-top: 9rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 441px) and (max-width: 767px) {
+  .home {
+    height: 45rem;
+  }
+
+  .intro h1 {
+    font-size: 2.3rem;
+    width: 18rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  .intro p {
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  .text {
+    display: inline-block;
+    align-items: center;
+    margin-left: 1rem;
+  }
+
+  .text p {
+    text-align: left;
+    font-size: 1.4rem;
+  }
+
+  .text img {
+    height: 2.5rem;
+  }
+
+  .profile {
+    margin-top: 16rem;
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .profile p {
+    margin-top: 8.5rem;
     font-size: 1.2rem;
   }
 }

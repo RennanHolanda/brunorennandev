@@ -2,11 +2,12 @@ import styles from "./Home.module.css";
 
 import { BsArrowReturnRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Github from "/img/github-original.svg"
-import Lk from "/img/linkedin-plain.svg"
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { VscGithub } from "react-icons/vsc";
 
 const Home = () => {
   return (
+    <section className={styles.container}>
     <div className={styles.home}>
       <div className={styles.intro}>
         <h1>Bem-vindo ao meu portfólio</h1>
@@ -18,12 +19,14 @@ const Home = () => {
             de aplicativos web completos. Pronto para desenvolver projetos de
             alta qualidade.
           </p>
+          <div id={styles.icons}>
           <Link to="https://github.com/RennanHolanda">
-            <img src={Github} alt="github" />
+            <VscGithub color="white" fontSize={50}/>
           </Link>
           <Link to="https://www.linkedin.com/in/rennanholanda/">
-            <img src={Lk} alt="linkedin" />
+            <AiOutlineLinkedin color="blue" fontSize={50}/>
           </Link>
+          </div>
         </div>
       </div>
       <div className={styles.profile}>
@@ -35,6 +38,7 @@ const Home = () => {
         </Link>
       </div>
     </div>
+    </section>
   );
 };
 

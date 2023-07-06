@@ -56,3 +56,42 @@
     display: none;
   }
 }
+
+@media (min-width: 708px) and (max-width: 1148px) {
+  .contact_area {
+    background-image: url("/public/img/developer.png");
+    height: 40rem;
+    width: 80%;
+    display: flex;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact_text {
+    width: 100%;
+    text-align: center;
+    margin-left: 0rem;
+    background-color: #000000af;
+  }
+  
+  .contact_text a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #dab9b9;
+  }
+  
+  .contact_text a:hover {
+    color: #000000;
+  }
+  
+  .contact_text h2 {
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 10rem;
+    margin-top: 2rem;
+  }
+  
+  .contact_img img {
+    display: none;
+  }
+}

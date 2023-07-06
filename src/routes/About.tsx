@@ -13,6 +13,7 @@ import Cs from "/img/css3.svg";
 import Bt from "/img/bootstrap.svg";
 import Gt from "/img/git.svg";
 import Gth from "/img/github.svg";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -36,6 +37,65 @@ const About = () => {
             continuar crescendo como desenvolvedor, sempre em busca de soluções
             inovadoras e de qualidade.
           </p>
+        </div>
+      </div>
+      <br />
+      <h2>EDUCAÇÃO</h2>
+      <div className={styles.about}>
+        <div id={styles.education}>
+          <h3>Universidade Estácio</h3>
+          <h4>Analise e Desenvolvimento de Sistemas</h4>
+          <p>
+            Fev/2023 <strong>(Cursando)</strong>
+          </p>
+          <Link
+            to={
+              "https://www.linkedin.com/in/rennanholanda/details/education/1635532494765/single-media-viewer/?profileId=ACoAABYqju0B1Zg5VHexd_4IVZEtS3BXCTVoroI"
+            }
+          >
+            CERTIFICADO
+          </Link>
+        </div>
+        <div id={styles.education}>
+          <h3>Universidade Joaquim Nabuco</h3>
+          <h4>Administração</h4>
+          <p><strong>2013 - 2017</strong></p>
+          <Link
+            to={
+              "https://www.linkedin.com/in/rennanholanda/overlay/1635498414042/single-media-viewer/?profileId=ACoAABYqju0B1Zg5VHexd_4IVZEtS3BXCTVoroI"
+            }
+          >
+            CERTIFICADO
+          </Link>
+        </div>
+      </div><br />
+      <h2>CURSOS COMPLEMENTARES</h2>
+      <div className={styles.about_course}>
+        <div id={styles.course}>
+        <h3>Digital House</h3>
+          <h4>Desenvolvimento Web Full Stack</h4>
+          <strong>Mar de 2022 - Set de 2022</strong>
+          <p>Atividades e grupos: Node.js, Javascript, Metodologia de desenvolvimento, Base de dados, APIs, Javascript Frontal, React.</p>
+          <Link
+            to={
+              "https://www.linkedin.com/in/rennanholanda/overlay/1635503225158/single-media-viewer/?profileId=ACoAABYqju0B1Zg5VHexd_4IVZEtS3BXCTVoroI"
+            }
+          >
+            CERTIFICADO
+          </Link>
+        </div>
+        <div id={styles.course}>
+        <h3>Udemy</h3>
+          <h4>TypeScript do básico ao avançado (c/ React, Express)</h4>
+          <strong>Jan - 2023</strong>
+          <p>Aprendi TypeScript com React e Express, criando aplicações web seguras e escaláveis. Desenvolvi componentes reutilizáveis, integrei rotas e implementei autenticação. Agora posso criar apps web modernos com ótima experiência do usuário.</p>
+          <Link
+            to={
+              "https://www.udemy.com/certificate/UC-a6c8e6db-063a-4006-b861-2325dea847b5/"
+            }
+          >
+            CERTIFICADO
+          </Link>
         </div>
       </div>
       <br />
