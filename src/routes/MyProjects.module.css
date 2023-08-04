@@ -64,12 +64,12 @@
   }
 
   .card {
-    height: 38rem;
+    height: 30rem;
     border-radius: 20px;
   }
 
   .card img {
-    height: 25rem;
+    height: 15rem;
     width: 80%;
     border-radius: 15px;
   }
