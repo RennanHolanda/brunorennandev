@@ -50,7 +50,7 @@ const About = () => {
           </p>
           <Link
             to={
-              "https://www.linkedin.com/in/rennanholanda/details/education/1635532494765/single-media-viewer/?profileId=ACoAABYqju0B1Zg5VHexd_4IVZEtS3BXCTVoroI"
+              "https://drive.google.com/file/d/1dj5LcE7AF_kJQOxku7cjXSIQuVIVp21C/view?usp=drive_link"
             }
           >
             CERTIFICADO
@@ -62,7 +62,7 @@ const About = () => {
           <p><strong>2013 - 2017</strong></p>
           <Link
             to={
-              "https://www.linkedin.com/in/rennanholanda/overlay/1635498414042/single-media-viewer/?profileId=ACoAABYqju0B1Zg5VHexd_4IVZEtS3BXCTVoroI"
+              "https://drive.google.com/file/d/1-w5UX8TZhjL4pSInuJdN2NYqnzwlUp1s/view?usp=drive_link"
             }
           >
             CERTIFICADO
@@ -78,7 +78,7 @@ const About = () => {
           <p>Atividades e grupos: Node.js, Javascript, Metodologia de desenvolvimento, Base de dados, APIs, Javascript Frontal, React.</p>
           <Link
             to={
-              "https://www.linkedin.com/in/rennanholanda/overlay/1635503225158/single-media-viewer/?profileId=ACoAABYqju0B1Zg5VHexd_4IVZEtS3BXCTVoroI"
+              "https://drive.google.com/file/d/1POr-oTiDAr3R-Ik9Oq6DaQOy7Hp4SM0i/view?usp=drive_link"
             }
           >
             CERTIFICADO

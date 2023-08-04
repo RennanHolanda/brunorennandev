@@ -39,7 +39,7 @@
 @media (min-width: 375px) and (max-width: 708px) {
   .contact_area {
     width: 100%;
-    height: 30rem;
+    height: 25rem;
   }
 
   .contact_text {
@@ -48,7 +48,7 @@
 
   .contact_text h2 {
     font-size: 2.3rem;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
     margin-top: 1rem;
   }
 

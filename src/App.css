@@ -10,6 +10,6 @@
 
 @media (min-width: 375px) and (max-width: 708px) {
     .main {
-        min-height: 82.4vh;
+        min-height: 70vh;
     }
 }

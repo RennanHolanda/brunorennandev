@@ -49,7 +49,7 @@
 #icons {
   width: 10rem;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 .profile {
@@ -73,9 +73,7 @@
   transition: all 0.5s;
 }
 
-
 @media (max-width: 767px) {
-
   .home {
     height: 15rem;
     display: grid;
@@ -179,6 +177,10 @@
 }
 
 @media (min-width: 375px) and (max-width: 440px) {
+  .container {
+    background-repeat: initial;
+  }
+
   .home {
     height: 50rem;
   }
@@ -209,7 +211,7 @@
   .text {
     display: inline-block;
     align-items: center;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
 
   .text p {
