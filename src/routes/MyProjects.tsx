@@ -1,10 +1,11 @@
 import styles from "./MyProjects.module.css";
 
 import Fk from "../assets/img/faketube.png";
-import Ct from "../assets/img/cost.png"
+// import Ct from "../assets/img/cost.png"
 import Pg from "../assets/img/pagamento.png";
 import Ps from "../assets/img/palavra_secreta.png";
 import Td from "../assets/img/todo_react.png";
+import Jb from "../assets/img/jobs.png"
 
 
 const MyProjects = () => {
@@ -22,13 +23,12 @@ const MyProjects = () => {
           <a href="https://github.com/RennanHolanda/videostube">Código fonte</a>
         </div><br />
         <div className={styles.card}>
-          <img src={Ct} alt="Criar projeto" />
+          <img src={Jb} alt="Criar projeto" />
           <p>
-            Um pequeno sistema eficiente e intuitivo para a elaboração de
-            orçamenos de projetos
+          Uma plataforma abrangente que conecta profissionais a oportunidades de emprego em diversos setores.
           </p>
-          <a href="https://cost-self.vercel.app/newproject">Veja Online</a>
-          <a href="https://github.com/RennanHolanda/Cost">Código fonte</a>
+          <a href="https://jobs-finder-two.vercel.app/">Veja Online</a>
+          <a href="https://github.com/RennanHolanda/jobs-front">Código fonte</a>
         </div>
       </section>
       <br />

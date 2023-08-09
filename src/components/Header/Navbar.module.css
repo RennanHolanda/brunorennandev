@@ -49,6 +49,7 @@
     height: 2.5rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    margin-left: 2rem;
   }
 
   .nav_links {
@@ -59,7 +60,7 @@
     position: absolute;
     display: block;
     list-style: none;
-    background-color: rgba(0, 0, 0, 0.808);
+    background-color: rgba(32, 32, 32, 0.808);
     left: 0;
     top: 75px;
     transition: all 0.5s ease-out;
