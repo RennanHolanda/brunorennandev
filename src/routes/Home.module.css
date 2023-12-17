@@ -1,5 +1,5 @@
 .container {
-  background-image: url("/public/img/eu.webp");
+  background-image: url("/public/img/developer.png");
   background-repeat: round;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .profile {
-  background-image: url("../img/eu.png");
+  background-image: url("../img/eu.webp");
   background-position: center;
   background-size: cover;
   width: 17rem;
