@@ -1,7 +1,6 @@
 import styles from "./MyProjects.module.css";
 
 import Fk from "../assets/img/faketube.png";
-// import Ct from "../assets/img/cost.png"
 import Pg from "../assets/img/pagamento.png";
 import Ps from "../assets/img/palavra_secreta.png";
 import Td from "../assets/img/todo_react.png";
